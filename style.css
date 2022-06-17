@@ -83,3 +83,11 @@ body {
     color: white;
     font-weight: 700;
 }
+.agreement {
+    color: var(--Grayish-Blue);
+    font-weight: 700;
+}
+.terms {
+    color: var(--Red);
+    font-weight: 700;
+}
