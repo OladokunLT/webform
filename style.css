@@ -56,5 +56,30 @@ body {
 .field-area {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+}
+.input-box {
+    padding: 20px 20px;
+    border: solid 2px var(--Grayish-Blue);
+    border-radius: 7px;
+    
+}
+.input-box:c {
+    border: solid 2px var(--blue);
+}
+.form-advert {
+    background: var(--Blue);
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    font-size: small;
+    border-radius: 7px;
+}
+.btn {
+    padding: 20px 0;
+    border: none;
+    border-radius: 7px;
+    background: var(--Green);
+    color: white;
+    font-weight: 700;
 }
