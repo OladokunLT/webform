@@ -30,7 +30,7 @@ body {
 }
 .l-bg {
   background: var(--Red);
-  background-image: url(/images/bg-intro-desktop.png);
+  background-image: url("images/bg-intro-desktop.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +42,7 @@ body {
     width: 90vw;
   }
   .s-bg {
-    background-image: url(/images/bg-intro-mobile.png);
+    background-image: url("images/bg-intro-mobile.png");
   }
 }
 .text-box {
@@ -91,7 +91,7 @@ body {
   border: 2px solid var(--Blue);
 }
 .input-box:focus:invalid:required {
-  background: url(/images/icon-error.svg) no-repeat 95% 50%;
+  background: url("images/icon-error.svg") no-repeat 95% 50%;
   background-size: 25px;
   border-color: var(--Red);
 }
