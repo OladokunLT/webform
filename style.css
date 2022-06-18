@@ -29,8 +29,8 @@ body {
     margin: 10vh auto;
 }
 .main-wrapper {
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh; */
+    /* width: 100vw; */
 }
 .l-bg {
     background: var(--Red);
@@ -43,49 +43,70 @@ body {
 .text-box {
     display: flex;
     flex-direction: column;
-    
     /* align-items: center; */
     justify-content: center;
-    color: white;
 }
 .fw-700 {
-    
+    color: white;
+    font-size: 40px;
+    line-height:40px;
+    margin-bottom: 20px;
 }
 .para {
-}
-.field-area {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.input-box {
-    padding: 20px 20px;
-    border: solid 2px var(--Grayish-Blue);
-    border-radius: 7px;
-    
-}
-.input-box:c {
-    border: solid 2px var(--blue);
+    color: antiquewhite;
 }
 .form-advert {
     background: var(--Blue);
     text-align: center;
     color: white;
     padding: 20px 0;
+    margin: 30px 0;
     font-size: small;
     border-radius: 7px;
+    box-shadow: 0 7px 0px 0 rgba(0,0,0,0.15);
+}
+.field-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 7px;
+    box-shadow: 0 7px 0 0 rgba(0, 0, 0, 0.15);
+}
+.input-box {
+    padding: 20px 20px;
+    border: solid 2px var(--Grayish-Blue);
+    border-radius: 7px;
+    font-weight: 700;
+    
+}
+.input-box:focus {
+    outline: none; border: 2px solid var(--Blue);
+}
+.input-box:hover {
+    outline: none; border: 2px solid var(--Blue);
 }
 .btn {
     padding: 20px 0;
     border: none;
     border-radius: 7px;
     background: var(--Green);
-    color: white;
+    color: antiquewhite;
     font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover {
+    background: rgb(144, 199, 144);
+}
+.warning {
+    font-size: 10px;
+    text-align: center;
 }
 .agreement {
     color: var(--Grayish-Blue);
     font-weight: 700;
+    
 }
 .terms {
     color: var(--Red);
